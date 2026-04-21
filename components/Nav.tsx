@@ -51,8 +51,8 @@ export default function Nav() {
               color: 'var(--color-fg)',
             }}
           >
-            ISI<span style={{ color: 'var(--color-accent)' }}>.</span>Communications
-          </span>
+            <Image src="/logo.png" alt="ISI Communications" width={160} height={40} />
+
         </Link>
 
         {/* Links */}

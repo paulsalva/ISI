@@ -211,7 +211,22 @@ body {
   background-size: 48px 48px;
 }
 
-/* Focus styles */
+/* Resource download link */
+.resource-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  background: var(--color-bg-surface);
+  border: 1px solid var(--color-border);
+  text-decoration: none;
+  transition: background 0.2s;
+  gap: 20px;
+}
+
+.resource-link:hover {
+  background: var(--color-bg-card);
+}
 a:focus-visible,
 button:focus-visible {
   outline: 2px solid var(--color-accent);

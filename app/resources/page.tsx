@@ -123,23 +123,7 @@ export default function ResourcesPage() {
                   href={doc.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'space-between',
-                    padding: '20px 24px',
-                    background: 'var(--color-bg-surface)',
-                    border: '1px solid var(--color-border)',
-                    textDecoration: 'none',
-                    transition: 'background 0.2s',
-                    gap: '20px',
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = 'var(--color-bg-card)'
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = 'var(--color-bg-surface)'
-                  }}
+                  className="resource-link"
                 >
                   <div>
                     <div
